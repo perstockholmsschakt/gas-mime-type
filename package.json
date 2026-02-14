@@ -1,14 +1,23 @@
 {
   "name": "gas-mime-types",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Google Apps Script MIME type enum for type completion",
-  "type": "module",
-  "main": "dist/index.js",
+  "author": "perstockholmsschakt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perstockholmsschakt/gas-mime-type.git"
+  },
+  "keywords": [
+    "google-apps-script",
+    "gas",
+    "mime-types",
+    "typescript"
+  ],
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
